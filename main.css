@@ -20,3 +20,25 @@ body {
   text-decoration: none;
   font-size: 17px;
 }
+
+#gotham {
+  width: 100vw;
+  height: 300px;
+}
+
+#title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgba(229, 235, 36, 0.73);
+  height: 300px;
+  font-family:
+}
+
+.sec1 {
+  background-image: url('https://vignette.wikia.nocookie.net/dccu/images/4/44/Gotham_City_Promotional_Photo.jpg/revision/latest?cb=20170405014556');
+  background-size: cover;
+  height: 300px;
+  width: 100vw;
+}
