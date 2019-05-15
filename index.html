@@ -9,8 +9,8 @@
     <style>
     .fa {
       padding: 20px;
-      font-size: 30px;
-      width: 30px;
+      font-size: 20px;
+      width: 20px;
       text-align: center;
       text-decoration: none;
       margin: 5px 2px;
@@ -50,25 +50,39 @@
         <li><a href="#">Entertainment</a></li>
         <li><a href="#">Technology</a></li>
         <li><a href="#">Politics</a></li>
+        <button onclick="lightTheme()">Light theme</button>
+        <button onclick="darkTheme()">Dark theme</button>
       </ul>
     </nav>
     <section class="sec1">
       <h1 id="title">GOTHAM TIMES</h1>
     </section>
     <section>
-      <h2>About Us</h2>
-      <p>Gotham Times is a newspaper company located in the center of Gotham city. We provide the latest news to Gotham's citizens from local to abroad. On our webpage you can find information on articles, journalists, and dangerous criminals to be on the lookout for.</p>
 
-      <div class="pic-grid">
-        <div><img src="https://i.ebayimg.com/images/g/XCsAAOSwaG1bz2af/s-l300.jpg"></div>
-        <div><img src="https://www.secretcompassonline.com/temp/product_view//PRIME1_Killer_Croc_1.jpg"></div>
-        <div><img src="https://pixel.nymag.com/imgs/daily/vulture/2012/07/30/30_bane.w330.h330.jpg"></div>
-        <div><img src="https://i.ytimg.com/vi/N-v5u8b8YpA/hqdefault.jpg"></div>
+      <div class="row">
+        <article class="column">
+          <h2>Joker</h2>
+          <img src="https://i.ebayimg.com/images/g/XCsAAOSwaG1bz2af/s-l300.jpg" class="pics">
+          <p>Lorem ipsum dolor sit amet, consectetur<br /> adipisicing elit, sed do eiusmod tempor<br /> incididunt ut labore et dolore magna aliqua.<br /> Ut enim ad minim veniam, quis nostrud<br /> exercitation ullamco laboris nisi ut aliquip<br /> ex ea commodo consequat. Duis aute irure dolor in reprehender</p>
+        </article>
+        <div class="column">
+          <h2>Killer Croc</h2>
+          <img src="https://www.secretcompassonline.com/temp/product_view//PRIME1_Killer_Croc_1.jpg" class="pics">
+          <p>Lorem ipsum dolor sit amet, consectetur<br /> adipisicing elit, sed do eiusmod tempor<br /> incididunt ut labore et dolore magna aliqua.<br /> Ut enim ad minim veniam, quis nostrud<br /> exercitation ullamco laboris nisi ut aliquip<br /> ex ea commodo consequat. Duis aute irure dolor in.</p>
+        </div>
+        <article class="column">
+          <h2>Bane</h2>
+          <img src="https://pixel.nymag.com/imgs/daily/vulture/2012/07/30/30_bane.w330.h330.jpg" class="pics">
+          <p>Lorem ipsum dolor sit amet, consectetur<br />adipisicing elit, sed do eiusmod tempor<br /> incididunt ut labore et dolore magna aliqua.<br /> Ut enim ad minim veniam, quis nostrud<br /> exercitation ullamco laboris nisi ut aliquip<br /> ex ea commodo consequat. Duis aute irure dolor in </p>
+        </article>
+        <div class="column">
+          <h2>Scare Crow</h2>
+          <img src="https://i.etsystatic.com/8415578/r/il/c2bc15/883243468/il_570xN.883243468_s47j.jpg" class="pics">
+          <p>Lorem ipsum dolor sit amet, consectetur<br /> adipisicing elit, sed do eiusmod tempor<br /> incididunt ut labore et dolore magna aliqua.<br /> Ut enim ad minim veniam, quis nostrud<br /> exercitation ullamco laboris nisi ut aliquip<br /> ex ea commodo consequat. Duis aute irure dolor in </p>
+        </article>
       </div>
-
-
     </section>
-      <footer>
+      <footer class="links">
         <a href="https://www.snapchat.com/" class="fa fa-snapchat-ghost"></a>
         <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
         <a href="https://twitter.com/" class="fa fa-twitter"></a>
